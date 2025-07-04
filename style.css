@@ -1,21 +1,21 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --primary-color: white;
     --secodary-color: black;
 
 }
 
-.dark-theme{
+.dark-theme {
     --primary-color: black;
-    --secondary-color:white;
+    --secondary-color: white;
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     background-color: var(--primary-color);
@@ -24,13 +24,13 @@ body{
     align-items: center;
 }
 
-#toggle-container{
+#toggle-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.switch{
+.switch {
     background-color: black;
     width: 80px;
     height: 30px;
@@ -39,7 +39,7 @@ body{
     position: relative;
 }
 
-.slider{
+.slider {
     background-color: white;
     height: 30px;
     width: 30px;
@@ -48,13 +48,13 @@ body{
     left: 1px;
 }
 
-.header{
+.header {
     color: red;
     margin-top: 10px;
 }
 
-.paragraph{
-    color: var(--secodary-color);
+.paragraph {
+    color: var(--secondary-color);
     text-align: left;
     font-size: 20px;
     margin-top: 10px;
